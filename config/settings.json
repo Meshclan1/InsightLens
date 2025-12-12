@@ -1,0 +1,8 @@
+{
+  "fetch_interval": "daily",
+  "alert_threshold": 0.3,
+  "s3_raw_bucket": "insightlens-raw",
+  "s3_summary_bucket": "insightlens-aggregated",
+  "dynamodb_table": "InsightLensInsights",
+  "sns_topic_arn": "arn:aws:sns:region:123456789012:InsightAlerts"
+}
