@@ -4,6 +4,12 @@
 
 ![InsightLens Docs](./docs/overview.md)
 
+Architecture High-Level Diagram Layout
+
+The architecture diagram illustrates **InsightLens’** various layers, including: ingestion, analysis, aggregation, and visualisation. The noted AWS services interact seamlessly, ensuring secure, automated review analytics and dashboard visualisation.
+
+<img width="1925" height="1524" alt="diagram-export-12-12-2025-12_26_10" src="https://github.com/user-attachments/assets/5e51764c-89bb-401d-8b65-e0ed10f90b44" />
+
 ---
 
 ## 🚩 1. Problem
@@ -51,13 +57,5 @@ The architecture separates **ingestion**, **analysis**, **aggregation**, and **v
 - **Provides trend analysis** for recurring issues and overall customer experience.
 - **Serverless design** ensures low operational overhead and scalable cost-efficient execution.
 - **Optional alerts** enable proactive mitigation of customer dissatisfaction.
-
----
-
-## 🖼️ 5. Architecture High-Level Diagram Layout
-
-The architecture diagram illustrates **InsightLens’** various layers, including: ingestion, analysis, aggregation, and visualisation. The noted AWS services interact seamlessly, ensuring secure, automated review analytics and dashboard visualisation.
-
-<img width="1925" height="1524" alt="diagram-export-12-12-2025-12_26_10" src="https://github.com/user-attachments/assets/5e51764c-89bb-401d-8b65-e0ed10f90b44" />
 
 ---
